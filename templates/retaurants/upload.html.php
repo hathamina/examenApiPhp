@@ -1,4 +1,4 @@
-<form action="?type=home&action=upload" method="post" enctype="multipart/form-data">
+<form action="?type=restaurant&action=upload" method="post" enctype="multipart/form-data">
  <input type="hidden" name="upload" value="sent" id="">
 <div class="form-group border border-dark">
    

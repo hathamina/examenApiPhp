@@ -1,17 +1,12 @@
 <?php
-
 namespace Models;
-
-
 class Restaurant extends AbstractModel implements \JsonSerializable
 {
     protected string $nomDeLaTable = "restaurants";
-
     private $id;
     private $name;
     private $adress;
     private $city;
-
     /**
      * @inheritDoc
      */
