@@ -11,7 +11,7 @@ class Kernel
 
 //ces deux variables peuvent etre utilisées pour fixer la page d'accueil par défaut
 
-        $type = 'home';
+        $type = 'restaurant';
         $action = 'index';
 
         if(!empty($_GET['type'])) {$type = $_GET["type"];}
